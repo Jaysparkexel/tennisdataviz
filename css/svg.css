@@ -1,0 +1,18 @@
+/* SVG styling */
+svg {
+	width: 820px;
+	height: 820px;
+	font-family: helvetica, sans-serif;
+	/*padding: 25px;*/
+}
+
+#chart {
+	padding: 25px 50px;
+}
+
+path, line {
+	fill: #0B6623;
+	stroke: #c9d7ce;
+	stroke-width: 0.5px;
+	cursor: pointer;
+}

@@ -1,0 +1,126 @@
+/* Clear fix */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Document styling */
+body {
+	font-family: 'Oswald', sans-serif;
+	/*font-family: "Helvetica Neue", Helvetica, sans-serif;*/
+	/*width: 1120px;*/
+	min-width: 1200px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+#wrapper {
+	position: relative;
+}
+
+#title {
+	font-size: 34px;
+	font-weight: 100;
+}
+#title div.large, #title span.large {
+	font-size: 36px;
+}
+
+footer, footer a {
+	color: #666;
+}
+
+#social {
+  margin-bottom: 30px;
+}
+
+
+/*------------------------------------------------------*/
+
+#visualization .yearcontainer {
+  /*max-width: 600px;*/
+  /*margin: 0 auto;*/
+  width: auto;
+  margin: 0 20px;
+}
+
+#visualization #list .title {
+  border-bottom: 10px solid #0B6623;
+  font-weight: 700;
+  font-size: 200%;
+  text-align: center;
+}
+
+#visualization span {
+  font-weight: 300;
+}
+
+#visualization ul {
+  list-style: none;
+}
+
+#visualization ul li {
+  margin-bottom: 15px;
+  padding: 10px 0 10px 5px;
+  border-bottom: 2px solid #0B6623;
+  text-align: center;
+}
+
+#visualization li:hover, li.active {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 13px 0 13px 10px;
+    /*background: #0B6623;*/
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #FEDC56;
+}
+
+#visualization li .active {
+  background: #0B6623;
+  color: #fff;
+  transition: .15s;
+}
+
+#visualization ul .inactive {
+  /*background: #efefef;*/
+    background: #00bf8f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-size: 15px;
+}
+
+#visualization .row {
+    padding: 20px;
+    /*margin: 20px;*/
+}
+
+#visualization {
+    background-image: url("../img/tex.png");
+}
+
+#contact .card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact {
+    padding: 100px;
+}
+
+#file{
+    color: #c2ffbd;
+    font-size: 110%;
+}
+
+#contact {
+    background: #F1F2B5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
